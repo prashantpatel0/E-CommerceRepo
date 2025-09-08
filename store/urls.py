@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
-
+import re
 urlpatterns = [
     path('', views.store, name='store'),
     path('cart/', views.cart, name='cart'),
